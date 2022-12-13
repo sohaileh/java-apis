@@ -10,8 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAzureDemoApplication {
 
 	@GetMapping("/api")
-	public String message(){
-		return "Congrats ! your application deployed successfully in Azure Platform. !";
+	public String message() {
+		return "Congrats ! your Api Project is deployed successfully in Azure Platform. !";
+	}
+
+	@GetMapping("/hello")
+	public String message2() {
+		return "I am Hello World Api";
 	}
 
 	public static void main(String[] args) {
