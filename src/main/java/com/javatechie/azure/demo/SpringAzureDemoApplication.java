@@ -11,7 +11,7 @@ public class SpringAzureDemoApplication {
 
 	@GetMapping("/api")
 	public String message() {
-		return "Congrats ! your Api Project is deployed successfully in Azure Platform. !";
+		return "Congrats ! your Api Project is deployed successfully in Azure Platform.  ! Changes";
 	}
 
 	@GetMapping("/hello")
